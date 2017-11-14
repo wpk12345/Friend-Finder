@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-//including html routes in the server file and passing in express
+//including html routes in the server file and passing in express jjj
 require("./app/routing/htmlRoutes.js")(app);
 
  app.listen(PORT, function() {
