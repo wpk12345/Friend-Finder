@@ -18,6 +18,8 @@ module.exports = function(app) {
   // ...the JSON is pushed to the appropriate JavaScript array
     app.post("/api/friends", function(req, res){
         friends.push(req.body);
+        res.json(friends);
+        // console.log(friendsList[0]);
     })
     };
     
